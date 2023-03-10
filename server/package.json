@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
 
-    "start": "node app.js"
+    "start": "nodemon index"
   },
   "keywords": [],
   "author": "",
