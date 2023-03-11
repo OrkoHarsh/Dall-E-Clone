@@ -22,7 +22,7 @@ const Home = () => {
     const [searchedResults, setSearchedResults] = useState(null);
 
 
-    useEffect(()=>{ 
+   
         const fetchPosts = async ()=>{
             setloading(true);
             try{
@@ -42,9 +42,9 @@ const Home = () => {
             }finally{
                 setloading(false);
             }
-        }
+        };
         
-       
+    useEffect(()=>{ 
         fetchPosts();
     }, []);
 
