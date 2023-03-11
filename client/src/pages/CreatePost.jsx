@@ -36,7 +36,7 @@ const CreatePost = () => {
                     headers:{
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({prompt:form.prompt}),
+                    body: JSON.stringify({prompt:form.prompt,}),
 
 
 
@@ -68,7 +68,7 @@ const CreatePost = () => {
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({...form})
+                    body: JSON.stringify({...form}),
                     });
             
                     await response.json();
