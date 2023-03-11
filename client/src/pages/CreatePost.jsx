@@ -34,7 +34,7 @@ const CreatePost = () => {
                 const response =await fetch('https://ai-image-generator-41gw.onrender.com/api/v1/dalle',{
                     method:'POST',
                     headers:{
-                        'Content-Type': "application/json",
+                        'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({prompt:form.prompt}),
 
